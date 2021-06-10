@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  font-size: 90px;/*16px=100%=1em , therefore, 90px=562.5%. this is used because when we set the font size in px its static and not dynamic so its better we prefer percentage or em instead of pixels.*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #ffaaa7;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #ffaaa7;
+  font-weight:bolder;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f29191;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted;
+    color: #d1d9d9;
+    text-align: center;
+    width:15%;
+
+}
+
+p{
+  color: #686d76;
+}
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #f8f1f1;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 300px;
+  height: 70px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  height: 70px;
+}
+.profile{
+padding-top: 10px;
+  background-size: contain;
+  width: 50%;
+  margin: auto;
+
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.image1{
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.image2{
+  width: 30%;
+  float: right;
+  border-radius: 100%;
+  margin-left: 30px;
+  background-color: pink;
+
+}
+
+a{
+  color: #f29191;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+ a:hover{
+   color: white;
+ }
+
+
+.btn {
+   background: #F0F3F8;
+   background-image: -webkit-linear-gradient(top, #F0F3F8, #F29191);
+   background-image: -moz-linear-gradient(top, #F0F3F8, #F29191);
+   background-image: -ms-linear-gradient(top, #F0F3F8, #F29191);
+   background-image: -o-linear-gradient(top, #F0F3F8, #F29191);
+   background-image: -webkit-gradient(to bottom, #F0F3F8, #F29191);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Brush Script MT;
+   font-size: 25px;
+   font-weight: 200;
+   padding: 22px;
+   text-shadow: -15px 1px 20px #FFFFFF;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: dotted #FCFCFC 1px;
+   background: #F29191;
+   background-image: -webkit-linear-gradient(top, #F29191, #F0F3F7);
+   background-image: -moz-linear-gradient(top, #F29191, #F0F3F7);
+   background-image: -ms-linear-gradient(top, #F29191, #F0F3F7);
+   background-image: -o-linear-gradient(top, #F29191, #F0F3F7);
+   background-image: -webkit-gradient(to bottom, #F29191, #F0F3F7);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+.cr{
+  color: #cdc9c3;
+  font-weight: normal;
+  font-size: 75%;
+  padding: 20px;
+}
+.bottom-container{
+  background-color: #898b8a;
+  font-weight: bolder;
+  padding: 50px 0 20px;
+}
